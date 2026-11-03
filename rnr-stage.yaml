@@ -20,7 +20,7 @@ modules:
   imm_generator:      {source_files: [Immediate_Generator/imme.sv]}
   register_file:      {source_files: [Register_File/register.sv]}
   main_control:       {source_files: [Main_Control/maincontrolunit.sv]}
-  id_stage:           {source_files: [ID_Stage/idstate.sv]}
+  id_stage:           {source_files: [ID_Stage/idstage.sv]}
   alu:                {source_files: [ALU/alu.sv]}
   alu_control:        {source_files: [ALU_Control/alu_control.sv]}
   ex_stage:           {source_files: [EX_Stage/exstage.sv]}
